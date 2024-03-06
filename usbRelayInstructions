@@ -1,0 +1,5 @@
+sudo apt install qtchooser qt5-qmake qtbase5-dev
+cd qt 
+qmake
+make
+sudo ln -s -T /home/mo/Downloads/usb-relay-hid-master/qt/QUsbRelay/libusb_relay_device.so.1 /lib/libusb_relay_device.so.1
